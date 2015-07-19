@@ -7,7 +7,6 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-import com.syntthetix.blocks.SwordsBlocks;
 import com.syntthetix.items.SwordsItems;
 import com.syntthetix.lib.RefStrings;
 
@@ -20,7 +19,6 @@ public class MainRegistry {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		SwordsItems.mainRegistry();
-		SwordsBlocks.mainRegistry();
 	}
 	
 	@EventHandler
